@@ -23,7 +23,7 @@
     <!-- header-->
     <header class="page-header">
       <div class="container header-container">
-        <nav class="page-navigation">
+        <nav class="nav-menu">
           <a href="./index.html" class="header-logo">Web<span>Studio</span></a>
           <ul class="nav-list">
             <li class="nav-list-item">
@@ -37,7 +37,17 @@
             </li>
           </ul>
         </nav>
-        <address class="contacts-container">
+        <button class="menu-open-btn" type="button">
+          <svg
+            class="menu-open-btn-icon"
+            width="24"
+            height="24"
+            aria-label="mobile menu"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <address class="contacts-links">
           <ul class="contacts-list">
             <li class="contacts-list-item">
               <a href="mailto:info@devstudio.com" class="contacts-information"
@@ -147,6 +157,7 @@
           <ul class="team-list">
             <li class="team-list-item">
               <img
+                srcset="./images/mark-guerro@2x.jpg 2x"
                 src="./images/mark-guerro.jpg"
                 alt="mark-guerro-designer"
                 width="264"
@@ -209,6 +220,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/tom-ford@2x.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="tom-ford-front"
                 width="264"
@@ -272,6 +284,7 @@
 
             <li class="team-list-item">
               <img
+                srcset="./images/camila-garcia@2x.jpg 2x"
                 src="./images/camila-garcia.jpg"
                 alt="camila-garcia-marketing"
                 width="264"
@@ -334,6 +347,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/daniel-wilson@2x.jpg 2x"
                 src="./images/daniel-wilson.jpg"
                 alt="daniel-wilson-ui"
                 width="264"
@@ -398,8 +412,9 @@
           </ul>
         </div>
       </section>
+
       <!-- Our portfolio -->
-      <section class="portfolio-section section">
+      <section class="portfolio-section">
         <div class="container portfolio-container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -516,7 +531,7 @@
       </section>
     </main>
     <!-- footer-->
-    <footer class="footer-page">
+    <!-- <footer class="footer-page">
       <div class="container footer-container">
         <div class="footer-text-container">
           <a href="./index.html" class="logo-footer"
@@ -601,9 +616,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- modal window -->
-    <div class="backdrop">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="modal-box-btn" type="button">
           <svg
@@ -705,6 +720,98 @@
             Send
           </button>
         </form>
+      </div>
+    </div> -->
+
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="menu-close-btn" type="button">
+          <svg
+            class="menu-close-btn-icon"
+            height="8"
+            width="8"
+            aria-label="close button"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="menu-nav-list">
+          <li class="menu-nav-list-item">
+            <a href="./index.html" class="menu-nav-link">Studio </a>
+          </li>
+          <li class="menu-nav-list-item">
+            <a href="" class="menu-nav-link">Portfolio </a>
+          </li>
+          <li class="menu-nav-list-item">
+            <a href="" class="menu-nav-link">Contacts</a>
+          </li>
+        </ul>
+        <address class="menu-contacts-links">
+          <ul class="menu-contacts-list">
+            <li class="menu-contacts-list-item">
+              <a href="tel:+110001111111" class="contacts-information-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="menu-contacts-list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts-information-link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-social-link-list">
+          <li class="social-list-item">
+            <a class="menu-social-list-link" href="">
+              <svg
+                class="social-link-icon"
+                aria-label="instagram icon "
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="menu-social-list-link" href="">
+              <svg
+                class="social-link-icon"
+                aria-label="twitter icon "
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="menu-social-list-link" href="">
+              <svg
+                class="social-link-icon"
+                aria-label="facebook icon "
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="menu-social-list-link" href="">
+              <svg
+                class="social-link-icon"
+                aria-label="linkedin icon "
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
