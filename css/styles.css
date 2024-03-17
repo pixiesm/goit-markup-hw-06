@@ -491,13 +491,13 @@ address {
   .benefits-list h3 {
     text-align: start;
   }
+}
+
+@media only screen and (min-width: 1158px) {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-}
-
-@media only screen and (min-width: 1158px) {
   .benefits-list-item {
     width: calc((100% - 24px * 3) / 4);
   }
@@ -531,7 +531,6 @@ address {
 
 .team-section {
   background: #f4f4fd;
-  padding-bottom: 96px;
 }
 .team-title {
   font-size: 36px;
